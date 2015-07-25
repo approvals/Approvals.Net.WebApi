@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>ApprovalTests.Asp.WebApi</id>
+    <version>$version$</version>
+    <description>
+      Utilities for unit testing Asp WebApi Projects.
+	  Builds on ApprovalTests
+    </description>
+    <language>en-US</language>
+    <authors>Llewellyn Falco &amp; Jay Bazuzi</authors>
+    <projectUrl>https://github.com/approvals/Approvals.Net.WebApi</projectUrl>
+    <iconUrl>http://approvaltests.sourceforge.net/sites/all/themes/corolla/logo.png</iconUrl>
+    <tags>Approvals ApprovalTests ApprovalTest Test Verification Verify Approve Testing Asp WebApi Routing</tags>
+  </metadata>
+</package>
