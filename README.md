@@ -14,3 +14,7 @@ public void VerifyRoutingTest()
 Available on NuGet
 ---
 [Install-Package ApprovalTests.Asp.WebApi](http://nuget.org/packages/ApprovalTests.Asp.WebApi)
+
+	
+## LICENSE
+[Apache 2.0 License](https://github.com/SignalR/SignalR/blob/master/LICENSE.md)
