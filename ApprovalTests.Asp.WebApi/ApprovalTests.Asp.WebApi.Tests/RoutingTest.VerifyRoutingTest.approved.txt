@@ -1,0 +1,12 @@
+﻿Method: GET, RequestUri: 'http://example.com/api/Values', Version: 1.1, Content: <null>, Headers:{}
+Handled By: SampleWebApiProject.Controllers.ValuesController.Get()
+
+Method: PUT, RequestUri: 'http://example.com/api/Values/5', Version: 1.1, Content: <null>, Headers:{}
+Handled By: SampleWebApiProject.Controllers.ValuesController.Put(id=5, value=)
+
+Method: PUT, RequestUri: 'http://example.com/api/alues/5', Version: 1.1, Content: <null>, Headers:{}
+404: Not Found
+
+Method: GET, RequestUri: 'http://example.com/DOESNOTEXIST', Version: 1.1, Content: <null>, Headers:{}
+No route found
+
