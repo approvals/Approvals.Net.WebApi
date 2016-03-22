@@ -13,7 +13,12 @@ namespace ApprovalTests.Asp.WebApi.Tests
         public void VerifyRoutingTest()
         {
             WebApiApprovals.VerifyRouting(WebApiConfig.Register,
-                new HttpRequestMessageList { { "api/Values", HttpMethod.Get },{"api/Values/5", HttpMethod.Put}, { "api/alues/5", HttpMethod.Put }, { "DOESNOTEXIST", HttpMethod.Get }, });
+                new HttpRequestMessageList { 
+                    { "api/Values", HttpMethod.Get },
+                    {"api/Values/5", HttpMethod.Put},
+                    { "api/alues/5", HttpMethod.Put },
+                    { "DOESNOTEXIST", HttpMethod.Get }, 
+                });
         }
     }
 }
